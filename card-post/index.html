@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    .card{
+      width: 400px;
+      /* height: 200px; */
+      background-color: white;
+      margin : auto;
+      padding : 20px;
+      border-radius : 10px;
+      box-shadow: 5px 12px 2px 1px rgba(0, 0, 0, 1);
+      font-family: "Figtree", sans-serif;
+    }
+
+    .card:hover{
+      box-shadow: 20px 12px 2px 1px rgba(0, 0, 0, 1);
+    }
+
+    .image-header{
+      width: 100%;
+      border-radius : 10px;
+    }
+
+    .kategori {
+      background-color: hsl(47, 88%, 63%);
+      display: inline-block;
+      padding : 5px 10px;
+      border-radius : 5px;
+      font-weight : 900;
+      margin : 10px 0;
+
+    }
+
+    .judul{
+      color : hsl(47, 88%, 63%);
+      font-size:x-large;
+      font-weight: bolder;
+      margin : 20px 0;
+    }
+
+    .judul:hover{
+      color : red;
+    }
+
+    .profil {
+      display: flex;
+      align-items: center;
+      gap : 20px;
+      margin-top : 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="image-header" src="assets/images/illustration-article.svg" />
+  
+    <div class="kategori">
+      Learninng
+    </div>
+
+    <div>Published 21 December 2023</div>
+
+    <div class="judul">HTML & CSS FOUNDATION</div>
+
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem pariatur voluptatibus quasi sunt et? Totam quis ad quibusdam quo deleniti. Magnam architecto exercitationem error placeat. Numquam consectetur placeat deleniti!</div>
+
+    <div class="profil">
+      <img src="assets/images/image-avatar.webp" width="40px"/>
+      <h3>Greg Hoper</h3>
+    </div>
+  </div>
+</body>
+</html>
